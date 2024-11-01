@@ -75,11 +75,43 @@ def main():
 
 def pomoc():
     print("Sekcja Pomoc: Tutaj znajdziesz wskazówki dotyczące korzystania z programu.\n")
+    print("Skrypty:")
+    print("    Skrypty to dodatkowe rozszerzenia dla tej nakładki.\n")
+    print("Szablon dla twórców skryptów:")
+
+    print("\nSzablon dla Python:")
+    print('print("Nazwa: <nazwa>")')
+    print('print("Opis: <opis>")')
+    print('print("Autor/Autorzy: <autor/autorzy>")')
+    print('print()')
+    print('wybor = input("Czy chcesz uruchomić ten program? (t/N): ")')
+    print('if wybor.lower() in ["", "n"]:')
+    print('    print("Naciśnij ENTER, aby wrócić do nakładki")')
+    print('elif wybor.lower() == "t":')
+    print('    main()')
+    print('def main():')
+    print('    # kod skryptu\n')
+
+    print("Szablon dla skryptu .sh:")
+    print("#!/bin/bash")
+    print("echo 'Nazwa: <nazwa>'")
+    print("echo 'Opis: <opis>'")
+    print("echo 'Autor: <autor>'")
+    print("read -p 'Czy chcesz uruchomić ten program? (t/N): ' wybor")
+    print("if [[ \$wybor == 't' ]]; then")
+    print("    # kod skryptu")
+    print("fi\n")
+
     input("Naciśnij ENTER, aby kontynuować")
 
 def info():
     print("Karmiz został stworzony, aby ułatwić pracę w terminalu dla początkujących.")
-    print("\nAutor: Kmarz_PL")
+    print("\nAutor: Kmarz_PL (również znany jako Marzo i Kmarz23)")
+    print("\nWersja: 0.1.0")
+    print("\nStrony projektu:")
+    print("https://github.com/Kmarz23/Karmiz")
+    print("\nSerwer Discord:")
+    print("https://discord.gg/DechJ3hnWh\n")
     input("Naciśnij ENTER, aby kontynuować")
 
 def skrypty():
