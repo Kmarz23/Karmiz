@@ -1,6 +1,6 @@
 # Karmiz
 
-**Uwaga!** Program jest w fazie alfa, więc może nie mieć wszystkich funkcji, które powinien mieć.
+**Uwaga!** Program jest w fazie alfa, więc może nie mieć wszystkich funkcji, i może zawierać błędy.
 
 Karmiz to proste narzędzie terminalowe dla początkujących użytkowników Linuxa, stworzone, aby ułatwić korzystanie z konsoli. Program oferuje intuicyjny interfejs, który pozwala na szybkie uruchamianie skryptów oraz wykonywanie podstawowych zadań.
 
@@ -27,6 +27,10 @@ Karmiz zawiera własny skrypt instalacyjny, który automatycznie zainstaluje wsz
 ## Wydania
 
 Najnowsze wersje Karmiz są dostępne do pobrania w zakładce Releases na GitHubie.
+
+## Wsparcie
+
+Jeśli masz pytania lub chcesz zgłosić błędy, dołącz do naszego [serwera Discord](https://discord.gg/DechJ3hnWh), aby uzyskać pomoc:
 
 ## Wymagania
 
